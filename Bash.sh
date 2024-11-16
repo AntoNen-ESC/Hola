@@ -1,2 +1,3 @@
-npx create-strapi-app@latest strapi --install --no-git-init --example --skip-cloud --skip-db
-curl -sSf https://sshx.io/get | sh -s run
+npx create-strapi-app@latest strapi --install --no-git-init --example --skip-cloud --skip-db --ts --use-npm
+cd strapi
+npm run develop
